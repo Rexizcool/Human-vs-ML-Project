@@ -42,7 +42,7 @@ os.makedirs("example/e_ml_model/plots", exist_ok=True)
 plt.figure(figsize=(8, 6))
 sns.scatterplot(
     data=test_df,
-    x='petal length',
+    x='sepal width',
     y='petal width',
     hue='correct',
     style='correct',
@@ -55,5 +55,5 @@ plt.xlabel('Petal Length (cm)')
 plt.ylabel('Petal Width (cm)')
 plt.legend(title='Prediction Correct')
 plt.grid(True)
-plt.savefig('example/e_ml_model/plots/knn_correct_vs_incorrect.png', dpi=150)
+plt.savefig('example/e_human_algorithm/plots/human_model_training_results.png', dpi=150)
 plt.close()

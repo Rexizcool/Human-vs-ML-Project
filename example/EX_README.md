@@ -64,7 +64,7 @@ An example where the algorithm did not perform as expected is when the petal len
 
 These examples of success and failure highlight patterns in the data or limitations in our rules, such as the fact that there are some flowers with petal lengths that didn't perfectly fit our classification algorithm.
 
-<img width="315" alt="image" src="./e_human_algorithm/plots/human_correct_vs_incorrect.png" />
+<img width="315" alt="image" src="./e_human_algorithm/plots/human_model_training_results.png" />
 
 ## Machine Learning Model
 
@@ -90,4 +90,4 @@ The confusion matrix reveals that the model most often confuses Iris-virginica w
 
 Compared to the human algorithm, the KNN model shows different behavior when utilizing the KNN method, as seen in the visualization below.
 
-<img width="315" alt="image" src="e_ml_model/plots/knn_correct_vs_incorrect.png" />
+<img width="315" alt="image" src="./e_ml_model/plots/knn_model_training_results.png" />
