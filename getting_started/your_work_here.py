@@ -7,6 +7,6 @@ penguin=pd.read_csv('/workspaces/Human-vs-ML-Project/data/penguins_size.csv')
 
 
 
-print(penguin.species)
+print(penguin.loc[penguin['species'] == "Adelie", ['culmen_length_mm']])
 
 
