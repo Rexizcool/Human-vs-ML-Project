@@ -18,21 +18,21 @@ You may work alone or with a partner. You may choose to work with the provided P
 ---
 
 **Team Members:**  
-- Name 1  
-- Name 2 (if applicable)  
+- Rex
+- Rayne
 
 **Dataset Used:**  
-(e.g. Penguins, Iris, Titanic, etc.)
+Penguins
 
 **Source:**  
-(UCI / Kaggle / Provided dataset)
+Provided dataset
 
 **Target Variable (What we are predicting):**  
-(e.g. species, survival, diagnosis)
+Species
 
 **Features Used:**  
-- Feature 1  
-- Feature 2  
+- Body Length
+- Flipper Length
 - Feature 3
 
 **[Video Review](https://)**
